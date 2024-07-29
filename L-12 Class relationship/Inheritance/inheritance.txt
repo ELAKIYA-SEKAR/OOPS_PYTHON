@@ -1,0 +1,17 @@
+udemy- user -student(login ,register,enroll,revision)
+   instructor(login,register,create,answer)
+
+in both the users login and register is common
+
+so user(login,register)- student and instructor
+
+DRY- dont repeat your codes
+
+code reusability
+
+student can inherit user but
+user cant inherit student
+
+can inherit datamemebers,member function(methods),constructor
+
+privat members can be inherited (self.__name) _Access specifiers,modifiers

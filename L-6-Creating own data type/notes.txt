@@ -1,0 +1,16 @@
+save the fraction file in the python lib and then you can access the new data type and functions
+
+Magic methods
+
+__str__ --> executes and print the return value automatically when print is executed
+ is automatically triggered when print is executed
+
+ __add__ --> executes automatically when x+y is triggered
+Internally--> x.__add__(y)
+x = Fraction(1, 2)
+
+same for __sub__,__mul__,__truediv__
+
+you can store this file in 
+
+eg. C:\Users\ELAKIYA SEKAR\AppData\Local\Programs\Python\Python39\Lib\fraction.py

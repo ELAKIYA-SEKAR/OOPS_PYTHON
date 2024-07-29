@@ -1,0 +1,16 @@
+4 types
+
+single level -- one parent-->one child
+
+muti level inherit-- grandparent-->parent-->child
+child inhertis from parent and grandparent
+parent from grandparent
+
+heirarchical
+one parent and multiple children
+
+mutiple inheritance
+single child two parents only in python
+
+hybrid inheritance
+combination of inheritance

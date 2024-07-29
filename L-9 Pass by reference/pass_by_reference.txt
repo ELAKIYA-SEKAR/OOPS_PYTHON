@@ -1,0 +1,4 @@
+Pass by reference is passing a reference variable to a function as a argument
+both the ids are same
+
+class objects are mutable like lists,dict and sets

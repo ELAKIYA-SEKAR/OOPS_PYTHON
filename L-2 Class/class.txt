@@ -1,0 +1,25 @@
+Class is a blueprint of how an object behaves eg.im a object belong to female class.
+class- data or property or attribute (noun) 
+       functions or behaviour or method(verb)
+eg.car-wheels,brake-data,avg speed- method
+Everything is object in python
+
+>>> a=2
+>>> type(a)
+<class 'int'>
+>>> a.upper()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'upper'
+
+In python, Datatype is Class
+variables defined is object
+
+Rules:
+
+Class name should be in pascal case.(eg.ThisIsPascal)
+methods or functions should be in snake_case
+
+
+class methods is public(+)
+class data is private(-)

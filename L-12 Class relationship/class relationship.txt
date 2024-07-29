@@ -1,0 +1,13 @@
+There are mutiple classes in an application
+in a ecommerce website, there are classess such as profile,order
+
+and relationship exists between these classes
+
+two types of relationship-- 
+aggregation(Has- a relationship)
+inheritance(Is a relationship)
+
+eg. smartphone is a product (prodcts properties are inherited by smart phones)
+car is a vehicle (vehicle properties are inherited by car)
+
+ 

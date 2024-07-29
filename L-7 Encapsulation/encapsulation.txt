@@ -1,0 +1,39 @@
+Instance variables
+variables which are defined inside the constructor
+why we call it as IV? coz it changes for different objects
+
+object can access both the data and methods
+object can change the instance variables too eg. sbi.balance="fdjghdjk"
+
+to avoid this problem we put __pin to not to change the variable
+like in java access variable python 
+
+data members are the variables written within the specific method and can only be used 
+in that method,where as the instance variables or global variables 
+are declared before declaring a method and can be called and used 
+anywhere in the program.
+
+class Atm:
+__pin-->internally-->_Atm__pin
+__balance-->internally--> _Atm__balance
+
+sbi.__balance="rgjk" gets executed and creates a new variable but
+it deosnt affect the instance variables
+
+instance variable cannot be accessed directly
+but we can write a fuction as set and get to access the variable
+in a way based on my logic and protecting it
+
+
+Encapsulation
+protected members-_(single underscore) cannot be accessed outside the class but can be accessed withing the calss and
+its subcalsses
+
+private- cannt be accessed outside the class or it base classes(__- double underscore)
+
+wrapping data and methods that work with data in one unit. This prevents
+data modification accidentally by limiting access to variables and methods
+ Not making the data publicly accessible 
+ first protecting the data using __ private attribute
+ and giving access to the instance variable by getter and setter
+ with a protection with the logic defined
