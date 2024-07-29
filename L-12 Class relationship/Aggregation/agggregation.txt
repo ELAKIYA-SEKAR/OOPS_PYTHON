@@ -1,0 +1,33 @@
+Aggregation- child can exist independently of the parent
+customer(class) has a address(class)
+customer refers to the address
+class Engine:
+    def __init__(self, horsepower):
+        self.horsepower = horsepower
+
+class Car:
+    def __init__(self, brand, engine):
+        self.brand = brand
+        self.engine = engine
+
+# Creating an engine object
+engine = Engine(150)
+car = Car('Toyota', engine)
+
+print(car.engine.horsepower)  # Output: 150
+
+
+
+composition- child cannot exist independently of the parent
+class Engine:
+    def __init__(self, horsepower):
+        self.horsepower = horsepower
+
+class Car:
+    def __init__(self, brand, horsepower):
+        self.brand = brand
+        self.engine = Engine(horsepower)  # Creating an engine object within the car
+
+car = Car('Toyota', 150)
+
+print(car.engine.horsepower)  # Output: 150

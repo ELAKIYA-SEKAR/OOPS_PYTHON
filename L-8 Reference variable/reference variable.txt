@@ -1,0 +1,2 @@
+#a varible which points the objects memory location is the reference variable
+sbi=Atm()

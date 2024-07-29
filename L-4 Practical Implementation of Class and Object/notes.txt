@@ -1,0 +1,12 @@
+functions vs methods
+
+    # functions vs methods
+    # methods are basically a function which is written inside a class
+    # function is a normal function which is not written in class
+    #calling both is different
+>>> len(l)--function
+0
+>>> l.append(10) -methods object.method()
+>>> l
+
+

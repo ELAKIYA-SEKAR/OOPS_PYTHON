@@ -1,0 +1,17 @@
+which object we are working on is self
+
+when we dont specify self and execute
+we get 
+check_balance() takes 0 positional arguments but 1 was given
+
+
+sbi.check_balance()--> check_balance(sbi)-->method(self)
+
+Inside a class there are data and methods both these can be accessed by the classe's objects
+a method cannot call/access another method in class
+
+it access through object eg.sbi,hdfc methods can only access other methods through object that is self
+self.check_balance() not check_balance()
+
+
+“self” refers to the instance of the class that is currently being used.

@@ -1,0 +1,9 @@
+polymorphinsm- multiple
+1.method overriding
+2.method overloading- - based on the input output gets changed(eg.area of x)
+3.operator overloading - behaviour of operator DIFFERS BASED ON THE INPUT
+
++-ADDITION
+>>> "HELLLO"+"ELAKIYA"
+'HELLLOELAKIYA'
+it differs in  fraction too

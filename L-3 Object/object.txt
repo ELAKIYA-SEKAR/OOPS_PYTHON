@@ -1,0 +1,7 @@
+Object is an instance of class
+objectname=classname()
+lion=animal()
+
+eg. 
+Object literal
+l=list()--> builtin class in python l-obj,list-class

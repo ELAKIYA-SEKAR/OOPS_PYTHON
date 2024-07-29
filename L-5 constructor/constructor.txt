@@ -1,0 +1,17 @@
+Constructor is a special method gets automatically executed when the class is called. 
+__init__
+
+whenever we create methods self is important
+
+constructor(__init__) is a special methods/magic/dunder- front__ and back__
+constructor cant be controlled by user
+it is automatically triggered
+
+when to use constructor?
+
+constructor stores configuration tools eg.internet connection,db connection,gps connection,hw connectivity
+eg. death in real life if life is a class 
+
+magic methods are predifined 
+magic method is a special method which gets triggered automatically 
+

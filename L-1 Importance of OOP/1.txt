@@ -1,0 +1,5 @@
+In python everything is an object
+
+OOP- Organizing code to maximize reusability(classes),we can create instances using objects for the classes.Using objects rather than functions or logic.(object-unique attributes and behaviour)
+object,class,polymorphism,encapsulation,inheritance,Abstraction
+Generality to Specificity

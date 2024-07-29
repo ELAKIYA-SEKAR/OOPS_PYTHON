@@ -1,0 +1,10 @@
+Instance variable--> value is different for different objects
+pin ,balance which changes for every objects
+eg.cgpa
+
+static variable--> variable which is same for every customer
+     or shared variable for the objects
+class variable--> same for the class eg.ifsc code same for the entire customers
+in a branch
+eg. dept
+
